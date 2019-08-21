@@ -125,7 +125,6 @@ article .article-meta {
 }
 
 article .author-name {
-	display: block;
 	text-decoration: underline;
 	text-decoration-color: #ccc;
 	margin-bottom: 15px;
@@ -135,16 +134,39 @@ article .author-name {
   font-size: 0.9rem;
 }
 
-.info-share {
-	display: inline-block;
-}
-
 .article-date {
 	display: inline-block;
+	font-size: 0.75rem;
+	float: left;
+}
+
+.icons-container {
+	display: inline-block;
+	margin-left: 20vw;
 }
 
 .icons-container .icon {
-	height: 1.2rem;
-	width: 1.2rem;
 	display: inline-block;
+	height: 15px;
+	vertical-align: middle;
+	width: 15px;
+	background-color: #eee;
+	border: 1px #eee solid;
+	border-radius: 100%;
+	padding: 5px;
+}
+.icons-container .clean-icon {
+	display: inline-block;
+	height: 18px;
+	vertical-align: middle;
+	width: 18px;
+	padding: 5px;
+}
+.article-text {
+	text-align: left;
+	margin: 10vh 30vw 10px;
+	display: block;
+	font-size: 1.35rem;
+  line-height: 1.7rem;
+	margin-left: calc((100% - 600px) / 2);
 }
