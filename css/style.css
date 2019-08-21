@@ -164,9 +164,13 @@ article .author-name {
 }
 .article-text {
 	text-align: left;
-	margin: 10vh 30vw 10px;
 	display: block;
 	font-size: 1.35rem;
   line-height: 1.7rem;
+	margin: 10vh 30vw 10px;
 	margin-left: calc((100% - 600px) / 2);
+}
+
+article .article1 .article2 .article3 .article4 .article5 {
+	margin: 0.5rem 0 0.5rem 0;
 }
