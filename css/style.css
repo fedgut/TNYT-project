@@ -46,56 +46,105 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 a {
 	text-decoration: none;
 	color: black;
 }
-
 nav {
 	border-bottom: 1px solid #e2e2e2;
 	width: 100vw;
 	display: table;
-	padding-bottom: .25rem;
+	padding-bottom: 0.25rem;
 }
-
 nav .left {
 	float: left;
-	padding: .5rem 1rem;
+	padding: 0.5rem 1rem;
 }
 nav .right {
 	float: right;
 	padding-right: 1rem;
 }
-
 nav .icon {
 	height: 1.15rem;
-	margin-right: .75rem;
+	margin-right: 0.75rem;
 }
-
 nav .logo {
 	margin-left: 25%;
 }
-
 nav .logo img {
 	height: 1.5rem;
 	margin-top: .45rem;
 }
-
 nav .page-name {
 	font-weight: bold;
 	font-family: 'Libre Franklin', sans-serif;
 	text-transform: uppercase;
 }
-
 nav .right button {
+	padding: .45rem 1rem;
+	margin: .25rem .25rem;
+	font-size: 11px;
 	font-weight: 500;
-	text-transform: uppercase;
 	color: white;
+	text-transform: uppercase;
 	background-color: #6288a5;
 	border: 1px solid #326891;
-	font-size: 11px;
-	padding: .45rem 1rem;
 	border-radius: 4px;
-	margin: .25rem .25rem;
+}
+header .artcle-title {
+	font: -apple-system-body;
+	font-size: 2.4rem;
+	font-weight: bold;
+	text-align: left;
+	font-style: italic;
+	margin: 2.7rem 30%;
+}
+header .telescope-image {
+	max-width: 80vw;
+	margin: 0 auto;
+	display: block;
+}
+
+header .telescope-caption {
+	margin: 10px 25vw 10px 9.5vw;
+	text-align: left;
+	display: block;
+	color: #666;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+	font-size: 0.9rem;
+}
+
+header .telescope-caption>span {
+	font-size: 0.85em;
+}
+
+article .article-meta {
+	text-align: left;
+	margin: 10vh 20vw 10px 30vw;
+	display: block;
+}
+
+article .author-name {
+	display: block;
+	text-decoration: underline;
+	text-decoration-color: #ccc;
+	margin-bottom: 15px;
+	font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-weight: 700;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.info-share {
+	display: inline-block;
+}
+
+.article-date {
+	display: inline-block;
+}
+
+.icons-container .icon {
+	height: 1.2rem;
+	width: 1.2rem;
+	display: inline-block;
 }
