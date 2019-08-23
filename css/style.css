@@ -189,7 +189,7 @@ nav .right button {
 }
 
 header .artcle-title {
-  font: 2.25rem/1.25 Georgia, "Times New Roman", Times, serif;
+  font: 2.25rem/2 Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
   text-align: left;
   font-style: italic;
@@ -197,13 +197,14 @@ header .artcle-title {
 }
 
 header .telescope-image {
-  max-width: 80vw;
+  max-width: 75vw;
   margin: 0 auto;
   display: block;
 }
 
 header .telescope-caption {
-  margin: 10px 25vw 10px 9.5vw;
+	max-width: 75vw;
+	margin: 10px auto;
   text-align: left;
   display: block;
   color: #666;
