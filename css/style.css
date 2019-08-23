@@ -271,8 +271,8 @@ article .author-name {
   margin-left: calc((100% - 600px) / 2);
 }
 
-article .article1 .article2 .article3 .article4 .article5 {
-  margin: 0.5rem 0 0.5rem 0;
+article .article {
+  margin: 0.5rem 0;
 }
 
 .fig-container {
@@ -285,10 +285,29 @@ article .article1 .article2 .article3 .article4 .article5 {
   font-size: 1.15rem;
 }
 
-.fig-container .astro {
+.fig-container .astro-intro {
+  max-width: 75vw;
+  margin: 10px auto;
+  text-align: left;
   display: block;
+  color: #666;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 0.9rem;
+}
+
+.fig-container .astro {
+  display: inline-block;
+	margin-right: 10px;
 }
 
 .figures .astro .astro-img {
   max-width: 15vw;
+}
+
+.figures .astro .astro-caption {
+	max-width: 15vw;
+}
+
+.figures .image-credit {
+	display: block;
 }
