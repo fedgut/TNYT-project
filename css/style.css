@@ -3,186 +3,296 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
+
 a {
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: black;
 }
+
 nav {
-	border-bottom: 1px solid #e2e2e2;
-	width: 100vw;
-	display: table;
-	padding-bottom: 0.25rem;
+  border-bottom: 1px solid #e2e2e2;
+  width: 100vw;
+  display: table;
+  padding-bottom: 0.25rem;
 }
+
 nav .left {
-	float: left;
-	padding: 0.5rem 1rem;
+  float: left;
+  padding: 0.5rem 1rem;
 }
+
 nav .right {
-	float: right;
-	padding-right: 1rem;
+  float: right;
+  padding-right: 1rem;
 }
+
 nav .icon {
-	height: 1.15rem;
-	margin-right: 0.75rem;
+  height: 1.15rem;
+  margin-right: 0.75rem;
 }
+
 nav .logo {
-	margin-left: 25%;
+  margin-left: 25%;
 }
+
 nav .logo img {
-	height: 1.5rem;
-	margin-top: .45rem;
+  height: 1.5rem;
+  margin-top: 0.45rem;
 }
+
 nav .page-name {
-	font-weight: bold;
-	font-family: 'Libre Franklin', sans-serif;
-	text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Libre Franklin", sans-serif;
+  text-transform: uppercase;
 }
+
 nav .right button {
-	padding: .45rem 1rem;
-	margin: .25rem .25rem;
-	font-size: 11px;
-	font-weight: 500;
-	color: white;
-	text-transform: uppercase;
-	background-color: #6288a5;
-	border: 1px solid #326891;
-	border-radius: 4px;
+  padding: 0.45rem 1rem;
+  margin: 0.25rem 0.25rem;
+  font-size: 11px;
+  font-weight: 500;
+  color: white;
+  text-transform: uppercase;
+  background-color: #6288a5;
+  border: 1px solid #326891;
+  border-radius: 4px;
 }
+
 header .artcle-title {
-	font: -apple-system-body;
-	font-size: 2.4rem;
-	font-weight: bold;
-	text-align: left;
-	font-style: italic;
-	margin: 2.7rem 30%;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-align: left;
+  font-style: italic;
+  margin: 2.7rem 30%;
 }
+
 header .telescope-image {
-	max-width: 80vw;
-	margin: 0 auto;
-	display: block;
+  max-width: 80vw;
+  margin: 0 auto;
+  display: block;
 }
 
 header .telescope-caption {
-	margin: 10px 25vw 10px 9.5vw;
-	text-align: left;
-	display: block;
-	color: #666;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
-	font-size: 0.9rem;
+  margin: 10px 25vw 10px 9.5vw;
+  text-align: left;
+  display: block;
+  color: #666;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 0.9rem;
 }
 
-header .telescope-caption>span {
-	font-size: 0.85em;
+header .telescope-caption > span {
+  font-size: 0.85em;
 }
 
 article .article-meta {
-	text-align: left;
-	margin: 10vh 20vw 10px 30vw;
-	display: block;
+  text-align: left;
+  margin: 10vh 20vw 10px 30vw;
+  display: block;
 }
 
 article .author-name {
-	text-decoration: underline;
-	text-decoration-color: #ccc;
-	margin-bottom: 15px;
-	font-family: nyt-franklin,helvetica,arial,sans-serif;
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+  margin-bottom: 15px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
   color: #333;
   font-size: 0.9rem;
 }
 
 .article-date {
-	display: inline-block;
-	font-size: 0.75rem;
-	float: left;
+  display: inline-block;
+  font-size: 0.75rem;
+  float: left;
 }
 
 .icons-container {
-	display: inline-block;
-	margin-left: 20vw;
+  display: inline-block;
+  margin-left: 20vw;
 }
 
 .icons-container .icon {
-	display: inline-block;
-	height: 15px;
-	vertical-align: middle;
-	width: 15px;
-	background-color: #eee;
-	border: 1px #eee solid;
-	border-radius: 100%;
-	padding: 5px;
+  display: inline-block;
+  height: 15px;
+  vertical-align: middle;
+  width: 15px;
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 100%;
+  padding: 5px;
 }
+
 .icons-container .clean-icon {
-	display: inline-block;
-	height: 18px;
-	vertical-align: middle;
-	width: 18px;
-	padding: 5px;
+  display: inline-block;
+  height: 18px;
+  vertical-align: middle;
+  width: 18px;
+  padding: 5px;
 }
+
 .article-text {
-	text-align: left;
-	display: block;
-	font-size: 1.35rem;
+  text-align: left;
+  display: block;
+  font-size: 1.35rem;
   line-height: 1.7rem;
-	margin: 10vh 30vw 10px;
-	margin-left: calc((100% - 600px) / 2);
+  margin: 10vh 30vw 10px;
+  margin-left: calc((100% - 600px) / 2);
 }
 
 article .article1 .article2 .article3 .article4 .article5 {
-	margin: 0.5rem 0 0.5rem 0;
+  margin: 0.5rem 0 0.5rem 0;
 }
 
 .fig-containger {
-	margin: 1rem 15vw 1rem 15vw;
+  margin: 1rem 15vw 1rem 15vw;
 }
 
 .fig-container .astro {
-	display: block;
+  display: block;
 }
 
 .figures .astro .astro-img {
-	max-width: 15vw;
+  max-width: 15vw;
 }
