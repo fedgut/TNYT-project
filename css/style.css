@@ -179,11 +179,10 @@ article .article1 .article2 .article3 .article4 .article5 {
 	margin: 1rem 15vw 1rem 15vw;
 }
 
-.fig-container .figures {
+.fig-container .astro {
 	display: block;
 }
 
 .figures .astro .astro-img {
-	display: inline-block;
-	max-width: 15vw;	
+	max-width: 15vw;
 }
