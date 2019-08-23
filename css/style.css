@@ -203,8 +203,8 @@ header .telescope-image {
 }
 
 header .telescope-caption {
-	max-width: 75vw;
-	margin: 10px auto;
+  max-width: 75vw;
+  margin: 10px auto;
   text-align: left;
   display: block;
   color: #666;
@@ -275,8 +275,14 @@ article .article1 .article2 .article3 .article4 .article5 {
   margin: 0.5rem 0 0.5rem 0;
 }
 
-.fig-containger {
-  margin: 1rem 15vw 1rem 15vw;
+.fig-container {
+  margin: 2.5rem auto;
+  width: 80%;
+}
+
+.fig-container h3 {
+  font-weight: bold;
+  font-size: 1.15rem;
 }
 
 .fig-container .astro {
