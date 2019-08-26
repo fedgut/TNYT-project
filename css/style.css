@@ -233,7 +233,6 @@ article .author-name {
 }
 
 .article-date {
-  display: inline-block;
   font-size: 0.75rem;
   float: left;
 }
@@ -342,4 +341,41 @@ article .article {
   color: #666;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 0.9rem;
+}
+
+article .article-end {
+  margin: 10px 30vw 10px 28vw;
+  background-color: #6288a5;
+  max-width: 43vw;
+}
+
+.article-end .icons-container {
+  float: right;
+}
+
+.article-end .comment {
+  float: left;
+  background-color: rgb(98, 136, 165);
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 3px;
+  color: white;
+}
+
+.links-footer {
+  max-width: 70vw;
+  margin: 10px auto;
+  background-color: #666;
+}
+
+.bot-logo img {
+  max-width: 9rem;
+  margin: 10px 
+}
+
+.footer-container .column{
+  float: left;
+  background-color: aqua;
+  margin-right: 5%;
+  clear: right;
+  font-size: .8rem;
 }
