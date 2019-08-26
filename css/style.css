@@ -272,17 +272,26 @@ article .author-name {
 }
 
 article .article {
-  margin: 0.5rem 0;
+  margin: 1.5rem 0;
+}
+
+.article-text h2 {
+  font-weight: bold;
+  font-size: 1.3rem;
 }
 
 .fig-container {
   margin: 2.5rem auto;
-  width: 80%;
+  width: 70%;
 }
 
 .fig-container h3 {
   font-weight: bold;
   font-size: 1.15rem;
+}
+
+.fig-container .astro-intro {
+  font-size: .08rem;
 }
 
 .fig-container .astro-intro {
