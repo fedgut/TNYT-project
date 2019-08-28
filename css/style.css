@@ -421,12 +421,18 @@ article .article-end {
   padding-bottom: 0.75rem;
 }
 
+.editor-picks {
+  float: right;
+  width: 240px;
+}
+
 .footer-container li {
   padding-bottom: 0.5rem;
 }
 
 .side-link {
-  width: 180px
+  width: 180px;
+  margin-right: none;
 } 
 
 .link > img {
