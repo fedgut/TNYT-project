@@ -422,8 +422,12 @@ article .article-end {
 }
 
 .editor-picks {
+  display: inline-block;
   float: right;
-  width: 240px;
+  position: absolute;
+  right: 0;
+  top: 200vh;
+  width: 24rem;
 }
 
 .footer-container li {
@@ -431,9 +435,22 @@ article .article-end {
 }
 
 .side-link {
-  width: 180px;
+  width: 220px;
   margin-right: none;
-} 
+  vertical-align: middle;
+}
+
+.side-link > img {
+  float: left;
+  clear: none;
+}
+
+.side-link > p {
+  vertical-align: middle;
+  height: 100%;
+  float: right;
+  clear: none;
+}
 
 .link > img {
   height: 75px;
