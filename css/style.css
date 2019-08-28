@@ -425,3 +425,10 @@ article .article-end {
   padding-bottom: 0.5rem;
 }
 
+.side-link {
+  width: 180px
+} 
+
+.link > img {
+  height: 75px;
+}
