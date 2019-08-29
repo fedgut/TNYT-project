@@ -72,7 +72,7 @@ nav .right button {
 }
 
 header {
-  padding: 10vh 12.5vw;
+  padding: 10vh 12.5vw 0;
 }
 
 .main-title {
@@ -80,7 +80,7 @@ header {
   font-size: 2.5rem;
   font-style: italic;
   line-height: 1.25;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .img-caption {
@@ -92,4 +92,73 @@ header {
 
 .img-caption span {
   color: #999;
+}
+
+main {
+  padding: 0.7rem 12.5vw;
+}
+
+.article-heading {
+  padding-left: 25%;
+  padding-bottom: 2.5rem;
+}
+
+.article-heading .article-author {
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+
+.article-heading .date-and-social {
+  /* vertical-align: middle; */
+}
+
+.date-and-social .article-date {
+  float: left;
+  font-size: 0.75rem;
+}
+
+.icons-container {
+  float: right;
+  margin-top: -0.5rem;
+}
+
+.icons-container .icon {
+  display: inline-block;
+  height: 15px;
+  vertical-align: middle;
+  width: 15px;
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.icons-container .clean-icon {
+  display: inline-block;
+  height: 18px;
+  vertical-align: middle;
+  width: 18px;
+  padding: 5px;
+}
+
+.articles-aside {
+  padding-left: 25%;
+}
+
+.articles-aside > article {
+  float: left;
+  width: 70%;
+}
+
+.articles-aside > aside {
+  width: 22.5%;
+  float: right;
+}
+
+.articles-aside > aside .side-link {
+  display: block;
+}
+
+.articles-aside aside img {
+  width: 75px;
 }
