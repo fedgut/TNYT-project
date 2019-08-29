@@ -1,0 +1,462 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  border-bottom: 1px solid #e2e2e2;
+  width: 100vw;
+  display: table;
+  padding-bottom: 0.25rem;
+}
+
+nav .left {
+  float: left;
+  padding: 0.5rem 1rem;
+}
+
+nav .right {
+  float: right;
+  padding-right: 1rem;
+}
+
+nav .icon {
+  height: 1.15rem;
+  margin-right: 0.75rem;
+}
+
+nav .logo {
+  margin-left: 25%;
+}
+
+nav .logo img {
+  height: 1.5rem;
+  margin-top: 0.45rem;
+}
+
+nav .page-name {
+  font-weight: bold;
+  font-family: "Libre Franklin", sans-serif;
+  text-transform: uppercase;
+}
+
+nav .right button {
+  padding: 0.45rem 1rem;
+  margin: 0.25rem 0.25rem;
+  font-size: 11px;
+  font-weight: 500;
+  color: white;
+  text-transform: uppercase;
+  background-color: #6288a5;
+  border: 1px solid #326891;
+  border-radius: 4px;
+}
+
+header .artcle-title {
+  font: 2.25rem/2 Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: left;
+  font-style: italic;
+  margin: 2.85rem 20%;
+}
+
+header .telescope-image {
+  max-width: 75vw;
+  margin: 0 auto;
+  display: block;
+}
+
+header .telescope-caption {
+  max-width: 75vw;
+  margin: 10px auto;
+  text-align: left;
+  display: block;
+  color: #666;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 0.9rem;
+}
+
+header .telescope-caption > span {
+  font-size: 0.85em;
+}
+
+article .article-meta {
+  text-align: left;
+  margin: 10vh 20vw 10px 30vw;
+  display: block;
+}
+
+article .author-name {
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+  margin-bottom: 15px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.article-date {
+  font-size: 0.75rem;
+  float: left;
+}
+
+.icons-container {
+  display: inline-block;
+  float: right;
+}
+
+.icons-container .icon {
+  display: inline-block;
+  height: 15px;
+  vertical-align: middle;
+  width: 15px;
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.icons-container .clean-icon {
+  display: inline-block;
+  height: 18px;
+  vertical-align: middle;
+  width: 18px;
+  padding: 5px;
+}
+
+.article-text {
+  text-align: left;
+  display: block;
+  font-size: 1.35rem;
+  line-height: 1.7rem;
+  /* margin: 10vh 30vw 10px; */
+  /* margin-left: calc((100% - 600px) / 2); */
+}
+
+article .article {
+  margin: 1.5rem 0;
+}
+
+.article-text h2 {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.article-text .article-text-container {
+  float: left;
+  width: 60%;
+}
+.article-text .editor-picks {
+  float: right;
+  width: 30%;
+}
+
+.fig-container {
+  margin: 2.5rem auto;
+  width: 70%;
+}
+
+.fig-container h3 {
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+
+.fig-container .astro-intro {
+  font-size: 0.08rem;
+}
+
+.fig-container .astro-intro {
+  max-width: 75vw;
+  margin: 10px auto;
+  text-align: left;
+  display: block;
+  color: #666;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 0.9rem;
+}
+
+.fig-container .astro {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.figures .astro .astro-img {
+  max-width: 15vw;
+}
+
+.figures .astro .astro-caption {
+  max-width: 15vw;
+}
+
+.figures .image-credit {
+  display: block;
+}
+
+.main-article .biceps2 {
+  display: block;
+  margin-left: 20vw;
+}
+
+.bicep2 {
+  width: 50vw;
+  margin: auto;
+}
+
+.bicep2 .bicep2-img {
+  max-width: 100%;
+}
+
+.bicep2 .bicep2-caption {
+  max-width: 75vw;
+  margin: 10px;
+  text-align: left;
+  color: #666;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 0.9rem;
+}
+
+article .article-end {
+  margin: 2rem auto 8rem;
+  background-color: #6288a5;
+  max-width: 45vw;
+}
+
+.article-end button {
+  padding: 0.85rem 2vw;
+  margin: 0.25rem 0.25rem;
+  font-size: 11px;
+  font-weight: 500;
+  color: white;
+  text-transform: uppercase;
+  background-color: #6288a5;
+  border-radius: 4px;
+}
+
+.article-end .icons-container {
+  float: right;
+  margin-right: 10%;
+  margin-top: 0.5rem;
+}
+
+.article-end .comment {
+  float: left;
+}
+
+.links-footer {
+  max-width: 95vw;
+  margin: 10px auto;
+}
+
+.links-footer::before {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 0;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  border-top: 2px solid rgb(226, 226, 226);
+}
+
+.bot-logo img {
+  height: 2rem;
+  margin: 0.85rem 0;
+}
+
+.bot-logo .go-home-link {
+  float: right;
+  font-size: 0.75rem;
+  margin: 1rem 1rem 0;
+  color: rgb(98, 136, 165);
+}
+
+.footer-container {
+  position: relative;
+}
+
+.footer-container .column {
+  display: inline-block;
+  width: calc(100% / 6 - 0.25rem);
+  margin: 0 auto 1rem;
+  box-sizing: border-box;
+  font-size: 14px;
+  vertical-align: top;
+}
+
+.footer-container .column:last-child {
+  border-left: 1px solid rgb(226, 226, 226);
+  padding-left: 1rem;
+}
+
+.footer-container .footer-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 0.75rem;
+}
+
+.editor-picks {
+  float: right;
+  width: 24rem;
+}
+
+.footer-container li {
+  padding-bottom: 0.5rem;
+}
+
+.side-link {
+  width: 220px;
+  margin-right: none;
+  vertical-align: middle;
+}
+
+.side-link > img {
+  float: left;
+  clear: none;
+}
+
+.side-link > p {
+  vertical-align: middle;
+  height: 100%;
+  float: right;
+  clear: none;
+}
+
+.link > img {
+  height: 75px;
+}
