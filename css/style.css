@@ -128,6 +128,7 @@ main {
 .icons-container {
   float: right;
   margin-top: -0.5rem;
+  margin-right: 25%;
 }
 
 .icons-container .icon {
@@ -228,4 +229,70 @@ aside .picks-heading {
   width: 100%;
   height: 20rem;
   margin-top: 1rem;
+}
+
+.article-end {
+  margin: 2rem auto 8rem;
+  background-color: #6288a5;
+  clear: both;
+}
+
+.article-end .button {
+  padding: 0.85rem 2vw;
+  margin: 0.25rem 0.25rem;
+  font-size: 11px;
+  font-weight: 500;
+  color: white;
+  text-transform: uppercase;
+  background-color: #6288a5;
+  border-radius: 4px;
+}
+
+.article-end .icons-container {
+  float: right;
+  margin-right: 30%;
+  margin-top: 0.5rem;
+}
+
+.article-end .comment {
+  float: left;
+}
+
+.extra-links {
+  width: 70%;
+  margin: 2rem auto;
+}
+
+.link-suggestions {
+  width: 80%;
+  float: left;
+}
+
+.suggestion-part {
+  border-top: #000 2px;
+}
+
+.suggestion {
+  display: inline-block;
+  margin: 0 0.5rem 1rem;
+  width: calc(100% / 3 - 2rem);
+}
+
+.img-suggestion {
+  width: 100%;
+}
+
+.post-summary {
+  display: block;
+  margin-top: 0.25rem;
+}
+
+.post-date {
+  color: #666;
+  font-size: 0.75rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.most-popular {
+  float: right;
 }
