@@ -153,7 +153,7 @@ main {
 .articles-aside > aside {
   width: 25%;
   float: right;
-  padding-top: 100vh;
+  padding-top: 60vh;
 }
 
 .articles-aside > aside .side-link {
@@ -177,4 +177,27 @@ aside .picks-heading {
   float: left;
   margin-bottom: 1rem;
   margin-right: 0.5rem;
+}
+
+.fig-container {
+  display: block;
+  clear: both;
+  width: 1150px;
+  margin: 1rem auto 2.5rem;
+}
+
+.figures {
+  width: 100%;
+}
+
+.astro {
+  width: 22%;
+  display: inline-block;
+  margin: 0 0 0 2%;
+}
+
+.astro-caption {
+  font-size: 0.75rem;
+  vertical-align: top;
+  color: #000;
 }
