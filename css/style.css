@@ -299,3 +299,7 @@ aside .picks-heading {
   float: right;
   width: 30%;
 }
+
+.suggestion-right {
+  border-top: 1px solid rgb(47, 47, 47);
+}
