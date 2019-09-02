@@ -386,6 +386,10 @@ aside .picks-heading {
   padding-bottom: 0.5rem;
 }
 
+.bot-icon {
+  width: 10px;
+}
+
 .fixie {
   position: fixed;
   bottom: 0;
