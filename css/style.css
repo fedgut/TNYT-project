@@ -5,6 +5,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+ul {
+  list-style: none;
+}
+
 figure {
   display: block;
   margin-block-start: 0;
@@ -315,6 +319,62 @@ aside .picks-heading {
   margin-left: 0.5rem;
 }
 
+.links-footer {
+  max-width: 95vw;
+  margin: 10px auto;
+  clear: both;
+  margin-bottom: 3rem;
+}
+
+.links-footer::before {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 0;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  border-top: 2px solid rgb(226, 226, 226);
+}
+
+.bot-logo .log-img-bot {
+  height: 2rem;
+  margin: 0.85rem 0;
+}
+
+.bot-logo .go-home-link {
+  float: right;
+  font-size: 0.75rem;
+  margin: 1rem 1rem 0;
+  color: rgb(98, 136, 165);
+}
+
+.footer-container {
+  position: relative;
+}
+
+.footer-container .column {
+  display: inline-block;
+  width: calc(100% / 6 - 0.25rem);
+  margin: 0 auto 1rem;
+  box-sizing: border-box;
+  font-size: 14px;
+  vertical-align: top;
+}
+
+.footer-container .column:last-child {
+  border-left: 1px solid rgb(226, 226, 226);
+  padding-left: 1rem;
+}
+
+.footer-container .footer-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 0.75rem;
+}
+
+.footer-container li {
+  padding-bottom: 0.5rem;
+}
+
 .fixie {
   position: fixed;
   bottom: 0;
@@ -325,4 +385,3 @@ aside .picks-heading {
   width: 100%;
   text-align: center;
 }
-
