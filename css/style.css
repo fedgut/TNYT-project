@@ -259,7 +259,7 @@ aside .picks-heading {
 }
 
 .extra-links {
-  width: 90%;
+  width: 70%;
   margin: 2rem auto;
 }
 
@@ -275,6 +275,7 @@ aside .picks-heading {
 .suggestion {
   display: inline-block;
   margin: 0 0.5rem 1rem;
+  vertical-align: top;
   width: calc(100% / 3 - 2rem);
 }
 
@@ -284,6 +285,7 @@ aside .picks-heading {
 
 .post-summary {
   display: block;
+  font-size: 0.85rem;
   margin-top: 0.25rem;
 }
 
@@ -295,4 +297,5 @@ aside .picks-heading {
 
 .most-popular {
   float: right;
+  width: 30%;
 }
