@@ -269,7 +269,7 @@ aside .picks-heading {
 }
 
 .suggestion-part {
-  border-top: #000 2px;
+  border-top: #000 1px solid;
 }
 
 .suggestion {
@@ -301,5 +301,28 @@ aside .picks-heading {
 }
 
 .suggestion-right {
-  border-top: 1px solid rgb(47, 47, 47);
+  border-top: 1px solid rgb(226, 226, 226);
+  padding: 10px 0 15px;
+  display: block;
+  font-size: 0.8rem;
 }
+
+.links-title {
+  font-size: 0.85rem;
+}
+
+.suggested.links-title {
+  margin-left: 0.5rem;
+}
+
+.fixie {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  border: 1px solid black;
+  padding: 1rem 0;
+  width: 100%;
+  text-align: center;
+}
+
