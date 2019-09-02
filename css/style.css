@@ -7,6 +7,12 @@ body {
 
 ul {
   list-style: none;
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
 }
 
 figure {
@@ -321,7 +327,7 @@ aside .picks-heading {
 }
 
 .links-footer {
-  max-width: 95vw;
+  max-width: 65vw;
   margin: 10px auto;
   clear: both;
   margin-bottom: 3rem;
@@ -334,6 +340,10 @@ aside .picks-heading {
   margin-top: 0;
   border-bottom: 1px solid rgb(226, 226, 226);
   border-top: 2px solid rgb(226, 226, 226);
+}
+
+.bot-logo {
+  padding: 1vh 1vw 0;
 }
 
 .bot-logo .log-img-bot {
